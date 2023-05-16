@@ -1,0 +1,29 @@
+jwt:
+  key: Q77c-x86qI2I9en-rwhYBWHhd575Z25ft-UGQeSqJa0=
+  expire-time: 604800
+mysql:
+  path: ddns.pzrpa.com
+  port: 3306
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db-name: novel
+  username: novel
+  password: ZrA9w#Rwuw
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: ""
+  log-zap: false
+elastic:
+  url: http://anonymous:paizitech@ddns.pzrpa.com:9200/
+redis:
+  url: ddns.pzrpa.com:6379
+  password: 123456
+  db: 0
+zap:
+  level: debug
+  format: console
+  prefix: '[novel-go]'
+  director: log
+  show-line: true
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  log-in-console: true

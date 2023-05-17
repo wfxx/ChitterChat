@@ -12,14 +12,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
-set(TS_FILES ChatCpp_zh_CN.ts)
+set(TS_FILES res/lang/ChatCpp_zh_CN.ts)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
-        ${TS_FILES}
+    src/app/main.cpp
+     ${TS_FILES}
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -69,4 +66,5 @@ if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(ChatCpp)
 endif()
 
+add_subdirectory(src/video)
 add_subdirectory(src/app)

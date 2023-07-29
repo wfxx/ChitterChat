@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1a86ebfad726057cb37c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ChitterChat",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ChitterChat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChitterChat-Debug-096ab74797fb58c1fb9c.json",
+					"name" : "ChitterChat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChitterChat_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChitterChat_autogen-Debug-7d5cf1e7fbcd9eacb95f.json",
+					"name" : "ChitterChat_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChitterChat_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChitterChat_autogen_timestamp_deps-Debug-5333d44cf43dae7ed5bc.json",
+					"name" : "ChitterChat_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/lvyy/Documents/GitHub/ChitterChat/build-ChitterChat-Desktop_Qt_6_5_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/lvyy/Documents/GitHub/ChitterChat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

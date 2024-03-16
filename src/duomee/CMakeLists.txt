@@ -2,8 +2,11 @@
 
 # STATIC：静态库 SHARED：动态库
 add_executable(duomee
-    event/eventmanager.h
-    event/eventmanager.cpp
+    base/filemanager.h base/filemanager.cpp
+    base/eventmanager.h base/eventmanager.cpp
+    base/logmanager.h base/logmanager.cpp
+    ui/commonToast.h ui/commonToast.cpp ui/commonToast.ui
+    ui/commondialog.h ui/commondialog.cpp ui/commondialog.ui
 )
 
 target_link_libraries(duomee PRIVATE Qt6::Core)

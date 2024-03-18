@@ -1,3 +1,4 @@
+#include "QtWidgets/qapplication.h"
 #include "mainwindow.h"
 
 #include <QApplication>

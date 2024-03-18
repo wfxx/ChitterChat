@@ -11,3 +11,14 @@ qt_standard_project_setup()
 
 add_subdirectory(src/duomee)
 add_subdirectory(src/app)
+
+set(LANGUAGE_SOURCES
+    res/language/zh_cn.ts
+    res/language/zh_tw.ts
+    res/language/en.ts)
+
+set(PROJECT_SOURCES
+    ${LANGUAGE_SOURCES})
+qt_add_executable(ChitterChat
+    MANUAL_FINALIZATION
+    ${PROJECT_SOURCES})

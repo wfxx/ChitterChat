@@ -2,8 +2,8 @@
 
 add_executable(app
     main.cpp
-    mainwindow.h
-    mainwindow.cpp
+    ui/mainwindow.h ui/mainwindow.cpp ui/mainwindow.ui
+    ui/logindialog.h ui/logindialog.cpp ui/logindialog.ui
 )
 
 target_link_libraries(app PRIVATE Qt6::Widgets)

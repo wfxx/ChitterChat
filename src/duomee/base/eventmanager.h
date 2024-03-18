@@ -19,8 +19,8 @@ public:
     void Unregister(int id);
     void Trigger(int id);
 private:
-    static EventManager *m_Instance;
-
     QMap<int, QList<std::function<void(void)>>> *m_EventMap;
+
+    static EventManager *m_Instance;
 };
 #endif // EVENTMANAGER_H

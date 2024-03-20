@@ -7,6 +7,7 @@ add_executable(duomee
     base/logmanager.h base/logmanager.cpp
     ui/commonToast.h ui/commonToast.cpp ui/commonToast.ui
     ui/commondialog.h ui/commondialog.cpp ui/commondialog.ui
+    ui/commonhead.h ui/commonhead.cpp ui/commonhead.ui
 )
 
 target_link_libraries(duomee PRIVATE Qt6::Core)

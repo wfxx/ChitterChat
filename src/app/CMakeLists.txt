@@ -3,8 +3,12 @@
 add_executable(app
     main.cpp
     ui/mainwindow.h ui/mainwindow.cpp ui/mainwindow.ui
-    ui/logindialog.h ui/logindialog.cpp ui/logindialog.ui
-    ui/registerdialog.h ui/registerdialog.cpp ui/registerdialog.ui
+    ui/login/logindialog.h ui/login/logindialog.cpp ui/login/logindialog.ui
+    ui/login/registerdialog.h ui/login/registerdialog.cpp ui/login/registerdialog.ui
+    ui/login/founddialog.h ui/login/founddialog.cpp ui/login/founddialog.ui
+    data/accountdata.h data/accountdata.cpp
+    data/userdata.h data/userdata.cpp
+
 )
 
 target_link_libraries(app PRIVATE Qt6::Widgets)

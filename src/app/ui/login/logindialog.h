@@ -17,6 +17,12 @@ public:
 
 private:
     Ui::LoginDialog *ui;
+
+    void InitEvent();
+
+    void ClickRegister();
+    void ClickLogin();
+    void ClickForgot();
 };
 
 #endif // LOGINDIALOG_H

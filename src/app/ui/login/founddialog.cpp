@@ -1,5 +1,5 @@
 #include "founddialog.h"
-#include "ui_founddialog.h"
+#include "ui/login/ui_founddialog.h"
 
 FoundDialog::FoundDialog(QWidget *parent)
     : QDialog(parent)

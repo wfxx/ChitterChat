@@ -1,5 +1,5 @@
 #include "logindialog.h"
-#include "ui_logindialog.h"
+#include "ui/login/ui_logindialog.h"
 
 LoginDialog::LoginDialog(QWidget *parent)
     : QDialog(parent)
@@ -11,4 +11,24 @@ LoginDialog::LoginDialog(QWidget *parent)
 LoginDialog::~LoginDialog()
 {
     delete ui;
+}
+
+void LoginDialog::InitEvent()
+{
+
+}
+
+void LoginDialog::ClickRegister()
+{
+
+}
+
+void LoginDialog::ClickLogin()
+{
+
+}
+
+void LoginDialog::ClickForgot()
+{
+
 }
